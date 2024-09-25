@@ -30,11 +30,11 @@ function pause() {
         return
     } else{
         if(btnPause){
-            btnPause.style.cssText = 'color: white; background-Color: blue; border: none';
+            btnPause.style.cssText = 'color: white; background-Color: #0d1b2a; border: none';
         }
         clearInterval(time)
         btnPlay.innerHTML = 'Recomeçar'
-        btnPlay.style.cssText = 'color: blue; background-Color: white; border: 2px solid blue';
+        btnPlay.style.cssText = 'color: #0d1b2a; background-Color: white; border: 2px solid #0d1b2a';
     }
     btnPlay.addEventListener('click', () => {
         btnPlay.innerHTML = 'Começar';
